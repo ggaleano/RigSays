@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RigSays</string>
+    <string name="lets_Play">RigSays</string>
+    <string name="option_1">Lion</string>
+    <string name="option_2">Cow</string>
+    <string name="option_3">Dog</string>
+    <string name="option_4">Horse</string>
+    <string name="check">Check</string>
+
+</resources>
