@@ -40,7 +40,7 @@ public class GameSelection extends AppCompatActivity {
                 else if(position == 1){
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
-                    //toast message
+
                     intent = new Intent(GameSelection.this, Flip3d.class);
                     startActivity(intent);
                 }
@@ -50,6 +50,10 @@ public class GameSelection extends AppCompatActivity {
                     Toast.makeText(GameSelection.this, "Coming Soon",
                             Toast.LENGTH_SHORT).show();
                 }
+                //add the stuff here instread
+
+
+                //dasdasd
                 else{
                     intent = new Intent(GameSelection.this, Games.class);
                     startActivity(intent);
