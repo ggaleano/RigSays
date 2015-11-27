@@ -28,6 +28,8 @@ public class GameSelection extends AppCompatActivity {
                                     int position, long id) {
                 Intent intent;
 
+                //more comments here
+
 
                 if(position == 0){
 //                    intent = new Intent(GameSelection.this, Games.class);
@@ -40,7 +42,7 @@ public class GameSelection extends AppCompatActivity {
                 else if(position == 1){
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
-                    //toast message
+                    //toast message ADDED THIS TO
                     intent = new Intent(GameSelection.this, Flip3d.class);
                     startActivity(intent);
                 }
