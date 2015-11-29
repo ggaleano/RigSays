@@ -11,47 +11,16 @@
     android:id="@+id/background"
     android:background="#00ffa841">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/mTextField"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
-    <ImageView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView4"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/speaker_logo"
-        android:onClick="activateSound"
+        android:text="@string/check"
+        android:id="@+id/buttonName"
+        android:onClick="submit"
+        android:layout_alignBaseline="@+id/text"
+        android:layout_alignBottom="@+id/text"
         android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView3"
-        android:layout_marginTop="120dp"
-        android:src="@drawable/cow_image"
-        android:layout_alignParentTop="true"
-        android:layout_above="@+id/tvQuestion"
-        android:layout_centerHorizontal="true" />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="What Animal Is This?"
-        android:id="@+id/tvQuestion"
-        android:paddingBottom="40dp"
-        android:layout_above="@+id/radioGroup"
-        android:layout_centerHorizontal="true" />
-
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -96,16 +65,45 @@
         android:textAlignment="center" />
 
 
-
-
-    <Button
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/check"
-        android:id="@+id/buttonName"
-        android:onClick="submit"
-        android:layout_alignBaseline="@+id/text"
-        android:layout_alignBottom="@+id/text"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/cow_image"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/tvQuestion"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/speaker_logo"
+        android:onClick="activateSound"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What Animal Is This?"
+        android:id="@+id/tvQuestion"
+        android:paddingBottom="40dp"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/mTextField"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>

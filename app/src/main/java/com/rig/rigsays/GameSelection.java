@@ -49,8 +49,8 @@ public class GameSelection extends AppCompatActivity {
                 else if(position == 2){
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
-                    Toast.makeText(GameSelection.this, "Coming Soon",
-                            Toast.LENGTH_SHORT).show();
+                    intent = new Intent(GameSelection.this, QuizActivity.class);
+                    startActivity(intent);
                 }
                 else{
                     intent = new Intent(GameSelection.this, Games.class);

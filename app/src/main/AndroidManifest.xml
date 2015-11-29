@@ -11,6 +11,10 @@
 
         <activity android:name=".GameSelection">
         </activity>
+        <activity android:name=".QuizActivity">
+        </activity>
+        <activity android:name=".ResultActivity">
+        </activity>
         <activity android:name=".Animals">
         </activity>
         <activity android:name=".MainActivity">
@@ -35,6 +39,7 @@
         </activity>
         <activity android:name=".Flip3d">
         </activity>
+
 
     </application>
 
