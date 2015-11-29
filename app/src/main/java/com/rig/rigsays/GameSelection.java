@@ -43,9 +43,9 @@ public class GameSelection extends AppCompatActivity {
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
                     //toast message ADDED THIS TO
-                    //intent = new Intent(GameSelection.this, Flip3d.class);
+                    intent = new Intent(GameSelection.this, Flip3d.class);
 
-                    intent = new Intent(GameSelection.this, Fruits.class);
+                    //intent = new Intent(GameSelection.this, Fruits.class);
 
                     startActivity(intent);
                 }
