@@ -43,13 +43,19 @@ public class GameSelection extends AppCompatActivity {
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
                     //toast message ADDED THIS TO
-                    intent = new Intent(GameSelection.this, Flip3d.class);
+                    //intent = new Intent(GameSelection.this, Flip3d.class);
+
+                    intent = new Intent(GameSelection.this, Fruits.class);
+
                     startActivity(intent);
                 }
                 else if(position == 2){
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
-                    intent = new Intent(GameSelection.this, QuizActivity.class);
+                    //intent = new Intent(GameSelection.this, QuizActivity.class);
+
+                    intent = new Intent(GameSelection.this, Vegetables.class);
+
                     startActivity(intent);
                 }
                 else{
