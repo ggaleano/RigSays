@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".Fruits">
         </activity>
+        <activity android:name=".About">
+        </activity>
         <activity android:name=".Vegetables">
         </activity>
         <activity android:name=".MainActivity">
@@ -34,8 +36,6 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".Games">
         </activity>
         <activity android:name=".LoadingPageTwo">
         </activity>

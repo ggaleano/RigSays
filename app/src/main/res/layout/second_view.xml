@@ -8,7 +8,6 @@
         android:layout_width="wrap_content"
         android:id="@+id/ImageView02"
         android:layout_height="wrap_content"
-        android:src="@drawable/cow_image"
-        >
+        android:src="@drawable/cow">
     </ImageView>
 </RelativeLayout>

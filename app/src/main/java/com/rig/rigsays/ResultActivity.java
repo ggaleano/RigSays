@@ -22,19 +22,42 @@ public class ResultActivity extends Activity {
         int score= b.getInt("score");
 //display score
         bar.setRating(score);
+        bar.setClickable(false);
         switch (score)
         {
-            case 1:
+            case 1: t.setText("Oopsie! Better Luck Next Time!");
+                break;
             case 2: t.setText("Oopsie! Better Luck Next Time!");
                 break;
-            case 3:
-            case 4:t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+            case 3: t.setText("Oopsie! Better Luck Next Time!");
                 break;
-            case 5:t.setText("Who are you? A trivia wizard???");
+            case 4: t.setText("Oopsie! Better Luck Next Time!");
+                break;
+            case 5: t.setText("Oopsie! Better Luck Next Time!");
+                break;
+            case 6: t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+                break;
+            case 7: t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+                break;
+            case 8: t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+                break;
+            case 9: t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+                break;
+            case 10: t.setText("Hmmmm.. Someone's been reading a lot of trivia");
+                break;
+            case 11:t.setText("Who are you? A trivia wizard???");
+                break;
+            case 12:t.setText("Who are you? A trivia wizard???");
+                break;
+            case 13:t.setText("Who are you? A trivia wizard???");
+                break;
+            case 14:t.setText("Who are you? A trivia wizard???");
+                break;
+            case 15:t.setText("Who are you? A trivia wizard???");
                 break;
         }
     }
-    //@Override
+//    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //// Inflate the menu; this adds items to the action bar if it is present.
 //        getMenuInflater().inflate(R.menu.activity_result, menu);

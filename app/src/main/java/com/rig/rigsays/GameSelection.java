@@ -43,7 +43,7 @@ public class GameSelection extends AppCompatActivity {
 //                    intent = new Intent(GameSelection.this, Games.class);
 //                    startActivity(intent);
                     //toast message ADDED THIS TO
-                    intent = new Intent(GameSelection.this, Flip3d.class);
+                    intent = new Intent(GameSelection.this, Fruits.class);
 
                     //intent = new Intent(GameSelection.this, Fruits.class);
 
@@ -59,7 +59,7 @@ public class GameSelection extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else{
-                    intent = new Intent(GameSelection.this, Games.class);
+                    intent = new Intent(GameSelection.this, QuizActivity.class);
                     startActivity(intent);
                 }
 
@@ -73,5 +73,10 @@ public class GameSelection extends AppCompatActivity {
         });
 
 
+    }
+
+    public void goToAbout(View view) {
+        Intent intent = new Intent(this, About.class);
+        startActivity(intent);
     }
 }

@@ -37,21 +37,71 @@ public class DbHelper extends SQLiteOpenHelper {
     }
     private void addQuestions()
     {
-        Question q1=new Question("Which company is the largest manufacturer" +
-                " of network equipment?","HP", "IBM", "CISCO", "C");
+        Question q1=new Question("Can you tell me which of these animals make this sound?"
+                ,"Turkey", "Cow", "Dolphin", "Turkey");
         this.addQuestion(q1);
-        Question q2=new Question("Which of the following is NOT " +
-                "an operating system?", "SuSe", "BIOS", "DOS", "B");
+        Question q2=new Question("Which of these facts is true about frogs? "
+                , "They lick themselves to keep clean", "Frogs usually hunt alone at night"
+                , "Frogs lay their eggs in water", "Frogs lay their eggs in water");
         this.addQuestion(q2);
-        Question q3=new Question("Which of the following is the fastest" +
-                " writable memory?","RAM", "FLASH","Register","C");
+        Question q3=new Question("Can you tell me which one is true about eagles?"
+                ,"Eagles can smell water up to 3 miles away", "Bald eagle aren’t actually bald"
+                ,"Most eagles have tails","Bald eagle aren’t actually bald");
         this.addQuestion(q3);
-        Question q4=new Question("Which of the following device" +
-                " regulates internet traffic?",    "Router", "Bridge", "Hub","A");
+        Question q4=new Question("Can you tell me which of these animals make this sound?"
+                , "Monkey", "Tiger", "Cat","Cat");
         this.addQuestion(q4);
-        Question q5=new Question("Which of the following is NOT an" +
-                " interpreted language?","Ruby","Python","BASIC","C");
+        Question q5=new Question("Which one is true about dogs?"
+                ,"They use a blowhole on top of their heads to breathe","They build their nests in tall trees"
+                ,"Are considered “Man’s best friend”","Are considered “Man’s best friend”");
         this.addQuestion(q5);
+        Question q6=new Question("Which one is true about grapes?"
+                ,"Contain more sugar than lemons", "They can explode if you put them in the microwave"
+                ,"Should never be refrigerated as the skin will blacken"
+                , "They can explode if you put them in the microwave");
+        this.addQuestion(q6);
+        Question q7=new Question("Which of these facts is true about cherries? "
+                , "Contains 92% of water", "Cherries will help you sleep better",
+                "The juiciest, most delicious cherries in the world are grown in Florida"
+                , "Cherries will help you sleep better");
+        this.addQuestion(q7);
+        Question q8=new Question("Can you tell me which one is true about kiwis?"
+                ,"Kiwifruit is fat-free, and two kiwis alone contain more fiber than most bran cereal",
+                "A medium sized kiwi only contains about 20 calories","In China, they are a symbol of good luck"
+                ,"Kiwifruit is fat-free, and two kiwis alone contain more fiber than most bran cereal");
+        this.addQuestion(q8);
+        Question q9=new Question("Which one is true about strawberry?"
+                , "Although they are sour, strawberries contain more sugar than lemon"
+                , "An average strawberry has around 200 seeds", "Wild strawberries originated in southern Africa"
+                ,"An average strawberry has around 200 seeds");
+        this.addQuestion(q9);
+        Question q10=new Question("Which one is true about lemons? "
+                ,"Although they are sour, lemons contain more sugar than strawberries"
+                ,"Lemons don’t grow on trees, they grow on big plants"
+                ," It takes about 2.5 pounds of lemons to make one bottle of wine"
+                ,"Although they are sour, lemons contain more sugar than strawberries");
+        this.addQuestion(q10);
+        Question q11=new Question("Which one is true about onions?"," Are very rich in vitamin A"
+                , "Onions will lower the blood pressure and will also reduce the risk of heart attacks",
+                "Onions is called maize in most countries"
+                , "Onions will lower the blood pressure and will also reduce the risk of heart attacks");
+        this.addQuestion(q11);
+        Question q12=new Question("Which one is true about spinach?"
+                , "Spinach are also called toadstools", "Eating Spinach made Popeye strong"
+                , "Closely related to Squash", "Eating Spinach made Popeye strong");
+        this.addQuestion(q12);
+        Question q13=new Question("Which one is true about radish?","They were first cultivated in China"
+                , "Radishes are good for eyesight","Eating a lot of radishes will make you sleepy"
+                ,"They were first cultivated in China");
+        this.addQuestion(q13);
+        Question q14=new Question("Which one is true about broccoli?"
+                , "Broccoli was once known as Italian Asparagus", "A cob of broccoli has 800 kernels"
+                , "Is considered a fruit", "Broccoli was once known as Italian Asparagus");
+        this.addQuestion(q14);
+        Question q15=new Question("Which one is true about corn?"
+                ,"A corn is a root vegetable","Corn will always have an even number of rows on the cob"
+                ,"The corn grows on a bush","Corn will always have an even number of rows on the cob");
+        this.addQuestion(q15);
     }
 
     @Override

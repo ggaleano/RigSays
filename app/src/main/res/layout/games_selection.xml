@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView2"
         android:src="@drawable/ic_info_black_48dp"
+        android:onClick="goToAbout"
         android:layout_alignBottom="@+id/textView2"
         android:layout_alignRight="@+id/gridLayout"
         android:layout_alignEnd="@+id/gridLayout"
