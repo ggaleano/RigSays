@@ -37,21 +37,24 @@ public class GameSelection extends AppCompatActivity {
         iv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(GameSelection.this, Fruits.class);
+                startActivity(intent);
             }
         });
 
         iv3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(GameSelection.this, Vegetables.class);
+                startActivity(intent);
             }
         });
 
         iv4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(GameSelection.this, QuizActivity.class);
+                startActivity(intent);
             }
         });
 
