@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17d9e0">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT RIG"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView"
+        android:text="RIG was founded in 2014 by Ryan Reuss, Iker Gonzalez Moya, and Geovanny Galeano during their first semester together at Florida Atlantic University. \n
+The group has always succeeded through obstacles by staying focused on team work and having fun! \n
+The future for RIG holds many new games and adventures waiting to be developed so stay tuned!!! "
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="goMenu"
+        android:text="BACK"
+        android:background="#090a3f"
+        android:textSize="30dp"
+        android:textColor="#ffffff" />
+</RelativeLayout>
