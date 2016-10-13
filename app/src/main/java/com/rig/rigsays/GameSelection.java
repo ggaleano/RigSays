@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 /**
@@ -19,59 +20,40 @@ public class GameSelection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.games_selection);
 
+        ImageView iv1 = (ImageView) findViewById(R.id.animals);
+        ImageView iv2 = (ImageView) findViewById(R.id.fruits);
+        ImageView iv3 = (ImageView) findViewById(R.id.vegetables);
+        ImageView iv4 = (ImageView) findViewById(R.id.quiz);
 
-        GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new ImageAdapter(this));
-
-        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-                Intent intent;
-
-                //more comments here
-
-
-                if(position == 0){
-//                    intent = new Intent(GameSelection.this, Games.class);
-//                    startActivity(intent);
-//                    Toast.makeText(GameSelection.this, "Coming Soon",
-//                            Toast.LENGTH_SHORT).show();
-                    intent = new Intent(GameSelection.this, Animals.class);
-                    startActivity(intent);
-                }
-                else if(position == 1){
-//                    intent = new Intent(GameSelection.this, Games.class);
-//                    startActivity(intent);
-                    //toast message ADDED THIS TO
-                    intent = new Intent(GameSelection.this, Fruits.class);
-
-                    //intent = new Intent(GameSelection.this, Fruits.class);
-
-                    startActivity(intent);
-                }
-                else if(position == 2){
-//                    intent = new Intent(GameSelection.this, Games.class);
-//                    startActivity(intent);
-                    //intent = new Intent(GameSelection.this, QuizActivity.class);
-
-                    intent = new Intent(GameSelection.this, Vegetables.class);
-
-                    startActivity(intent);
-                }
-                else{
-                    intent = new Intent(GameSelection.this, QuizActivity.class);
-                    startActivity(intent);
-                }
-
-//                Toast.makeText(GameSelection.this, "Coming Soon",
-//                        Toast.LENGTH_SHORT).show();
-
+        iv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GameSelection.this, Animals.class);
+                startActivity(intent);
 
             }
-
-
         });
 
+        iv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        iv3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        iv4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
     }
 
